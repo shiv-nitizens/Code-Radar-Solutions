@@ -6,9 +6,9 @@ char* welcome() {
 
 int main() {
     int pi=3.14;
-    int radius;
+    float radius;
     float area;
     scanf("%d",&radius);
-    area=pi*radius*radius
+    area=pi*radius*radius;
     printf("Area: %.2f",area);
 }
