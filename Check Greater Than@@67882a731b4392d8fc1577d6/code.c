@@ -13,6 +13,6 @@ int main() {
     else if(a<b){
         printf("False");
     }else{
-        void
+        void;
     }
 }
