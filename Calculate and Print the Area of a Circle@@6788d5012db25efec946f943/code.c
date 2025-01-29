@@ -5,10 +5,10 @@ char* welcome() {
 }
 
 int main() {
-    int pi=3.14;
+    float pi=3.14;
     float radius;
     float area;
-    scanf("%f",&radius);
+    scanf("%.2f",&radius);
     area=pi*radius*radius;
     printf("Area: %.2f",area);
 }
