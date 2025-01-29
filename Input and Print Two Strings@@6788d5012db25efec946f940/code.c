@@ -1,7 +1,5 @@
 #include <stdio.h>
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
+
 int main() {
     char x[5],y[10];
     scanf("%s%s",&x,&y);
