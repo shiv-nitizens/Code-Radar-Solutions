@@ -8,7 +8,7 @@ int main() {
     int a;
     scanf("%d",&a);
     if (a<0 && a>100){
-        printf("In RAange");
+        printf("In Range");
     }else{
         printf("Our of Range");
     }
