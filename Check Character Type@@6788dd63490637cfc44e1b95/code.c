@@ -9,7 +9,7 @@ int main() {
     scanf("%c",&x);
     if (x=='a' || x=='e' || x=='i' || x=='o' || x=='u' || x=='A' || x=='E' || x=='I' || x=='O'||x=='U'){
         printf("Vowel");
-    } else if(x!='a' && x!='e' && x!='i' && x!='o' && x!='u' ){
+    } else if((x>='a' && x<='z') || (x>='A' && x<='Z')){
         printf("Consonant");
     }else{
         printf("Special Character");
