@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     char x;
-    scanf("%c",x);
+    scanf("%c",&x);
     if (x=="a" || x=="e" || x=="o" || x=="i" || x=="u"){
         printf("Vowel");
     }
