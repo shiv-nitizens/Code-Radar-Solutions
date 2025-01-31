@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&z);
     for (int i=z;i>0;--i)
     {
-       for (int j=9;j>0;--j){
+       for (int j=i;j>0;){
         printf("%c\n",'*');
        }
     }
