@@ -23,7 +23,7 @@ int main() {
             printf("%d",mull);
             break;
         case '/':
-            printf("%d",div);
+            printf("%.0d",div);
             break;
     }
 }
