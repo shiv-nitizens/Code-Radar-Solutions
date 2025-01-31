@@ -9,6 +9,6 @@ int main() {
     scanf("%d",&z);
     for (int i=0;i<=z;++i)
     {
-        printf("%d",2);
+        printf("%d\n",2);
     }
 }
