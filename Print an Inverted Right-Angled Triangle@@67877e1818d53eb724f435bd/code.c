@@ -9,6 +9,8 @@ int main() {
     scanf("%d",&z);
     for (int i=z;i>0;--i)
     {
-        printf("%d\n",2);
+       for (int j=i;j>0;--j){
+        printf("%c",'*');
+       }
     }
 }
