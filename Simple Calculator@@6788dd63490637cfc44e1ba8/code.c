@@ -19,7 +19,7 @@ int main() {
             printf("%d",a*b);
             break;
         case '/':
-            printf("%.0d",a/b);
+            printf("%d",a/b);
             break;
         
     }
