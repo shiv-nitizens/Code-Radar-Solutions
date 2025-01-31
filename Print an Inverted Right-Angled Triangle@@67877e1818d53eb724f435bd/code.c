@@ -10,7 +10,7 @@ int main() {
     for (int i=z;i>0;--i)
     {
        for (int j=i;j>0;--j){
-        printf("%c",'*');
+        printf("%c\n",'*');
        }
     }
 }
