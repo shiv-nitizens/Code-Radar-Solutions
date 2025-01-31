@@ -5,26 +5,23 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,sum,sub,div,mull;
+    int a,b;
     char x;
     scanf("%d%d%c",&a,&b,&x);
-    sum=a+b;
-    sub=a-b;
-    div=a/b;
-    mull=a*b;
     switch(x){
         case '+':
-            printf("%d",sum);
+            printf("%d",a+b);
             break;
         case '-':
-            printf("%d",sub);
+            printf("%d",a-b);
             break;
         case '*':
-            printf("%d",mull);
+            printf("%d",a*b);
             break;
         case '/':
-            printf("%.0d",div);
+            printf("%.0d",a/b);
             break;
         
     }
+    return 0;
 }
