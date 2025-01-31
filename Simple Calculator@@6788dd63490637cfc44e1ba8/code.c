@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a,b;
-    char x;
+    char x[2];
     scanf("%d%d",&a,&b);
     scanf("%s",&x);
     if (x=='+'){
