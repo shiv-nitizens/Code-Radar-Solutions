@@ -25,5 +25,6 @@ int main() {
         case '/':
             printf("%.0d",div);
             break;
+        
     }
 }
