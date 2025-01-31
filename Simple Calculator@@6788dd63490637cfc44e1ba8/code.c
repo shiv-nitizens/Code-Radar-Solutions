@@ -22,7 +22,7 @@ int main() {
         case '*':
             printf("%d",mull);
             break;
-        case '/':;
+        case '/':
             printf("%d",div);
             break;
     }
