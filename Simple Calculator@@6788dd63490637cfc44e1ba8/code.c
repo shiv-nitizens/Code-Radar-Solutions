@@ -8,22 +8,17 @@ int main() {
     int a,b;
     char x;
     scanf("%d%d%c",&a,&b,&x);
-    switch (x){
-        case '+':
-            printf("%d",a+b);
-            break;
-        case '-':
-            printf("%d",a-b);
-            break;
-        case '*':
-            printf("%d",a*b);
-            break;
-        case '/':
-            printf("%d",a/b);
-            break;
-        default:
-            printf("Error");
-            break;
+    if (x=='+'){
+        printf("%d",a+b);
+    }else if(x=='-'){
+        printf("%d",a-b);
+    }else if (x=='*'){
+        printf("%d",a*b);
+    }else if (x=='/'){
+        printf("%d",a/b);
+    }else{
+        printf("Error");
     }
+
     return 0;
 }
