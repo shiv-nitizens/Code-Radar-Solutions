@@ -6,17 +6,17 @@ char* welcome() {
 
 int main() {
     int a,b;
-    char x[2];
+    char x;
     scanf("%d%d",&a,&b);
     scanf("%c",&x);
     if (x=='+'){
-        printf("%d",a+b);
+        printf("%d",a + b);
     }else if(x=='-'){
-        printf("%d",a-b);
+        printf("%d",a - b);
     }else if (x=='*'){
-        printf("%d",a*b);
+        printf("%d",a * b);
     }else if (x=='/'){
-        printf("%d",a/b);
+        printf("%d",a / b);
     }else{
         printf("Error");
     }
