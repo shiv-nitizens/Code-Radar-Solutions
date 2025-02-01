@@ -9,10 +9,11 @@ int main() {
     scanf("%d",&x);
     if (x>0)
     {
-        if (x==1 || x==2 || x==3 || x==7)
+        if (x==1 || x==2 || x==3 || x==7 || x==11)
         {
             printf("Prime");
-        }else 
+        }
+        else 
         {
             if (x/2==0 || x/3==0 || x/4==0 || x/5==0 || x/6==0 || x/7==0){
                 printf("Not Prime");
