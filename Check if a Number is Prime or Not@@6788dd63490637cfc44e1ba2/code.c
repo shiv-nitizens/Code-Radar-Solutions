@@ -20,6 +20,6 @@ int main() {
         }
     }else
     {
-        printf("ello");
+        break;
     }
 }
