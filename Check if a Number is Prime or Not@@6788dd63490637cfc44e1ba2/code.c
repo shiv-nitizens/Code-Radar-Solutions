@@ -18,8 +18,5 @@ int main() {
                 printf("Not Prime");
             }
         }
-    }else
-    {
-        break;
     }
 }
