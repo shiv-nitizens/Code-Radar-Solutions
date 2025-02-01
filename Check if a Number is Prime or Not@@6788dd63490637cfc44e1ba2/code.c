@@ -19,6 +19,6 @@ int main() {
             printf("Prime");
         }
     }else{
-        printf("hello");
+        printf("")
     }
 }
