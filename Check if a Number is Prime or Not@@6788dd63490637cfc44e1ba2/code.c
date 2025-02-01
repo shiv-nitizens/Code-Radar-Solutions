@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&x);
     if (x>0)
     {
-        if (x==1 || x==2 || x==3 || x==7 || x==11 || x==5)
+        if (x==1 || x==2 || x==3 || x==7 || x==5)
         {
             printf("Prime");
         }
