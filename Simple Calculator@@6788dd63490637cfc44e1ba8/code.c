@@ -6,9 +6,8 @@ char* welcome() {
 
 int main() {
     int a,b;
-    char x[2];
-    scanf("%d%d",&a,&b);
-    scanf("%s",&x);
+    char x;
+    scanf("%d %d %c",&a,&b,&x);
     if (x=='+'){
         printf("%d",a + b);
     }else if(x=='-'){
