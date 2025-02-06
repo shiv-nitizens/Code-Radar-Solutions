@@ -13,7 +13,7 @@ int main() {
         {
             printf("Prime");
         }
-        else if (x/2==0 || x/3==0 || x/4==0 || x/5==0 || x/6==0 || x/7==0){
+        else if (x%2==0 || x%3==0 || x%4==0 || x%5==0 || x%6==0 || x%7==0){
                 printf("Not Prime");    
         }else{
             printf("Prime");
